@@ -1,0 +1,20 @@
+# Create the public/index.html file
+public_html = """<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="R.K.Contractors provides expert painting and polishing services in Mumbai. 10+ years experience in interior, exterior painting, wood polishing, and waterproofing." />
+    <title>R.K.Contractors - Professional Painting & Polishing Services in Mumbai</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>"""
+
+with open('public/index.html', 'w') as f:
+    f.write(public_html)
+
+print("Created public/index.html")
